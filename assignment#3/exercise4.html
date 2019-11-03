@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Using CSS Grid-->
+    <!--Layout 2-->
+    <style type="text/css">
+        .grid_container {
+            border: 1px solid white;
+            display: grid;
+            grid-template-rows:auto auto auto auto;
+            grid-template-columns: 20% 60%;
+            column-gap:0.1cm;
+            row-gap: 0.1cm;
+        }
+
+        .grid_item1 {
+            border: 1px solid white;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        
+        }
+
+        .grid_item2 {
+            border: 1px solid white;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+
+        .grid_item3 {
+            border: 1px solid white;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+
+        .grid_item4 {
+            border: 1px solid white;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+
+        .grid_item5 {
+            border: 1px solid white;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 3;
+            grid-row-end: 3;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+
+        .grid_item6 {
+            border: 1px solid white;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 3;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+
+        .grid_item7 {
+            border: 1px solid white;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 4;
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid_container">
+        <div class="grid_item1">
+            One
+        </div>
+        <div class="grid_item2">
+            Two
+        </div>
+        <div class="grid_item3">
+            Three
+        </div>
+        <div class="grid_item4">
+            Four
+        </div>
+        <div class="grid_item5">
+            Five
+        </div>
+        <div class="grid_item6">
+            Six
+        </div>
+        <div class="grid_item7">
+            Seven
+        </div>
+
+    </div>
+
+</body>
+
+</html>
