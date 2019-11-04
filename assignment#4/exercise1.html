@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise1</title>
+    <script type="text/javascript">
+        var f = "fizz";
+        var b = "buzz";
+        for (count = 1; count <= 100; count++) {
+            if (count % 3 == 0 && count % 5 != 0) {
+                console.log(f);
+            } else if (count % 3 != 0 && count % 5 == 0) {
+                console.log(b);
+            } else if (count % 3 == 0 && count % 5 == 0) {
+                console.log(f + b)
+            } else {
+                console.log(count);
+            }
+
+        }
+    </script>
+</head>
+
+</html>
