@@ -2,67 +2,78 @@
 <html>
 
 <head>
+    <title>Exercise2</title>
     <style type="text/css">
         body {
             font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
         }
 
-        a {
-            color: #5b9300;
-            text-decoration: none;
-            -webkit-transition: color 0.1s linear;
-        }
-
-        a:hover {
-            color:white;
-        }
-
-      
-
-        #fullpagestyle {
+        .full_page {
             width: 824px;
             margin: 40px auto;
         }
 
-        header h1 {
-            font: normal normal 5em Baskerville, Palatino, "Book Antiqua", serif;
-            margin: 0 0 36px 0;
-            color: #999;
-        }
-
-        #writtencontentstyle {
+        .div_left {
             width: 400px;
-            padding-right: 8px;
-            height: 582px;
             float: left;
-            position: relative;
-        }
-
-        #writtencontentstyle p:nth-child(3) {
-            padding: 8px 16px;
-            background: #444;
-            color: white;
-            font-weight: bold;
-            width: 376px;
-            position: absolute;
-            bottom: 295px;
-            margin-bottom: 0;
-        }
-
-        #i0 {
-            position: absolute;
             bottom: 0;
         }
 
-        #catpicstyle {
+        h1 {
+            color: #999999;
+            margin: 0 0 36px 0;
+            font-size: 70px;
+            font-weight: normal;
+            font-family: Baskerville, Palatino, "Book Antiqua", serif;
+        }
+
+        .info {
+            color: black;
+            font-size: 14px;
+            margin-bottom: 16px;
+            line-height: 1.57;
+        }
+
+        .links {
+            width: 376px;
+            padding: 10px 16px;
+            background: #444444;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            line-height: 20px;
+
+        }
+
+        .links>a {
+            color: #5b9300;
+        }
+
+        .links>a:hover {
+            color: white;
+        }
+
+        .div_right {
             width: 408px;
             float: right;
             margin-left: 8px;
             margin-bottom: 8px;
         }
 
+        #i0 {
+            margin-bottom: 0;
+        }
+
         #i1 {
             margin-right: 8px;
+        }
+
+        #i2,
+        #i3,
+        #i5,
+        #i6 {
+            margin-bottom: 8px;
         }
 
         #i1,
@@ -71,14 +82,7 @@
             float: left;
         }
 
-        #catpicstyle img {
-            margin-bottom: 8px;
-        }
-
-        #i4 {
-            margin-left: 8px;
-        }
-
+        #i4,
         #i5 {
             margin-left: 8px;
         }
@@ -90,58 +94,64 @@
             float: right;
         }
 
-        #footerstyle {
-            font-size: 85.714%;
+        .amp {
+            font-style: italic;
+            font-family: Baskerville, Palatino, "Book Antiqua", serif;
+        }
+
+        .body_content {
+            margin-bottom: 12px;
+        }
+
+        .footerstyle {
             clear: both;
-            margin-top: 16px;
             border-top: 1px solid #D6D6D6;
-            padding: 12px 0;
+            padding: 10px 0;
+            font-size: 12px;
+        }
+
+        .footerstyle a {
+            color: #7fcd00;
         }
     </style>
 </head>
 
 <body>
-    <div id="fullpagestyle">
-        <div>
-
-            <div id="writtencontentstyle">
-                <header>
-                    <h1>placekitten</h1>
-                </header>
-                <p title="It fits a gap in the market. ">
-                    <strong>
-                        A quick and simple service for getting pictures of kittens for use as placeholders in your
-                        designs
-                        or
-                        code
-                    </strong>
-                    Just put your image size (width <span class="amp">&</span> height) after our URL and you'll get a
-                    placeholder.
-                </p>
-                <p class="links">
-                    Like this: <a href="http://placekitten.com/200/300">http://placekitten.com/200/300</a><br>
-                    or: <a href="http://placekitten.com/g/200/300">http://placekitten.com/g/200/300</a>
-                </p>
-
-                <img id="i0" src="http://placekitten.com/408/287" alt="">
+    <div class="full_page">
+        <div class="div_left">
+            <h1>placekitten</h1>
+            <div class="info">
+                <strong>
+                    A quick and simple service for getting pictures of kittens for use as placeholders in your
+                    designs
+                    or code.
+                </strong>
+                Just put your image size (width <span class="amp">&amp;</span> height) after our URL and
+                you'll
+                get a placeholder.
             </div>
-            <div id="catpicstyle">
-                    <img id="i1" src="http://placekitten.com/200/287" alt="">
-                    <img id="i2" src="http://placekitten.com/200/140" alt="">
-                    <img id="i3" src="http://placekitten.com/200/139" alt="">
-                    <img id="i4" src="http://placekitten.com/200/286" alt="">
-                    <img id="i5" src="http://placekitten.com/96/140" alt="">
-                    <img id="i6" src="http://placekitten.com/96/139" alt="">
-                    <img id="i7" src="http://placekitten.com/200/138" alt="">
+            <div class="links">
+                Like this: <a href="http://placekitten.com/200/300"> http://placekitten.com/200/300</a><br>
+                or: <a href="http://placekitten.com/g/200/300"> http://placekitten.com/g/200/300</a>
             </div>
+            <img id="i0" src="http://placekitten.com/408/287" alt="">
         </div>
-        <footer id="footerstyle">
-            <p>Delivered by <a href="http://mark.james.name">Mark James</a> <span class="amp">&amp;</span> Photographers
-                (<a href="attribution.html">Image attribution</a>) &mdash; <a href="https://placehold.it/">Inspired by
+        <diV class="div_right">
+            <img id="i1" src="http://placekitten.com/200/287" alt="">
+            <img id="i2" src="http://placekitten.com/200/140" alt="">
+            <img id="i3" src="http://placekitten.com/200/139" alt="">
+            <img id="i4" src="http://placekitten.com/200/286" alt="">
+            <img id="i5" src="http://placekitten.com/96/140" alt="">
+            <img id="i6" src="http://placekitten.com/96/139" alt="">
+            <img id="i7" src="http://placekitten.com/200/138" alt="">
+        </diV>
+        <footer class="footerstyle">
+            <p>Delivered by <a href="http://mark.james.name">Mark James</a> &; Photographers( <a
+                    href="attribution.html">Image attribution</a>) - <a href="https://placehold.it/">Inspired by
                     placehold.it</a></p>
         </footer>
     </div>
-</body>
+
 </body>
 
 </html>
