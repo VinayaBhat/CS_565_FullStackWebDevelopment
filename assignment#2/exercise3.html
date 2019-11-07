@@ -2,29 +2,66 @@
 <html>
 
 <head>
-    <title>
-        Vinaya Dattatraya Bhat
-    </title>
+    <title>Exercise3</title>
     <style type="text/css">
         * {
-            box-sizing: border-box;
             background-color: lightyellow;
+
         }
 
-        .splittingpagestyle {
-            float: left;
-            width: 50%;
-            padding: 10px;
-            align-content: center;
+        .main_box {
+            display: flex;
+
+        }
+
+        .left_item {
+            margin: 2% 5%;
+        }
+
+        .right_box {
+            margin: 2% auto;
+            width: 70%;
             text-align: center;
-            font-family: Verdana;
         }
 
         .display-picture {
-            width: 300px;
+            width: 400px;
             height: 500px;
-            object-fit: cover;
             border-radius: 50%;
+        }
+
+        .sectionstyle {
+            font-family: cursive;
+        }
+
+        .sectionhead {
+            color: maroon;
+        }
+
+        .connectstyle {
+            text-align: left;
+            font-family: cursive;
+        }
+
+        hr {
+            border-style: double;
+            border-width: 5px;
+            color: midnightblue;
+        }
+
+        input[type=email] {
+            border: 2px solid midnightblue;
+            border-radius: 4px;
+        }
+
+        .socialmedia-pic {
+            height: 1cm;
+            width: 1cm;
+        }
+
+        .formstyle {
+            color: midnightblue;
+            font-weight: bold;
         }
 
         body h1 {
@@ -35,25 +72,9 @@
             color: maroon;
         }
 
-        .sectionstyle {
-            font-family: cursive;
-            text-align: justify;
-        }
-
-        .sectionhead {
-            text-align: center;
-            color: maroon;
-        }
-
-        .connectstyle {
-            text-align: left;
-            font-family: cursive;
-        }
 
         a {
             color: black;
-            text-decoration: none;
-            -webkit-transition: color 0.1s linear;
         }
 
         a:hover {
@@ -77,44 +98,21 @@
             color: greenyellow;
         }
 
-        .formstyle {
-            color: midnightblue;
-            font-weight: bold;
-        }
-
-        hr {
-            border-style: double;
-            border-width: 5px;
-            color: midnightblue;
-        }
-
-        input[type=email] {
-            border: 2px solid midnightblue;
-            border-radius: 4px;
-        }
-
-        #socialmedia-pic {
-            height: 1cm;
-            width: 1cm;
-        }
-
         .footerclass {
             font-family: Verdana;
             color: maroon;
             font-size: x-small;
-        }
-        .align_right{
-            float:right;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <div class="splittingpagestyle">
-            <img class="display-picture" src="profile.jpg">
+    <div class="main_box">
+        <div class="left_item">
+            <img class="display-picture" src="profile.jpg" alt="Profile Picture">
         </div>
-        <div class="splittingpagestyle">
+        <div class="right_box">
             <h1> Hi, I am Vinaya</h1>
             <h4>CS Graduate Student * Code - Repeat * Amateur Photographer * Itinerant
                 * Dark Chocolate Addict </h4>
@@ -133,13 +131,15 @@
                 <h4>You can find me on:</h4>
                 <ul>
                     <li>
-                        <a href='https://www.linkedin.com/in/vinaya-bhat'><img src="LinkedIn.jpg" id="socialmedia-pic">
+                        <a href='https://www.linkedin.com/in/vinaya-bhat'><img src="LinkedIn.jpg"
+                                class="socialmedia-pic" alt="">
                             LinkedIn</a>
                     </li>
                     <li>
-                        <a href="https://github.com/VinayaBhat"><img src="Github.png" id="socialmedia-pic"> Github</a>
+                        <a href="https://github.com/VinayaBhat"><img src="Github.png" class="socialmedia-pic" alt="">
+                            Github</a>
                     </li>
-                    </li>
+
                 </ul>
             </div>
             <section class="connectstyle">
@@ -151,16 +151,13 @@
                     <button type="submit" class="buttonstyle">Submit</button>
                 </form>
             </section>
-            
 
         </div>
     </div>
-    <hr/>
+    <hr />
     <footer class="footerclass">
-        <p>Developed by: Vinaya Dattatraya Bhat.<span class="align_right">Updated on: 20 October 2019.</span></p>        
+        <p>Developed by: Vinaya Dattatraya Bhat.</p>
     </footer>
 </body>
-
-
 
 </html>

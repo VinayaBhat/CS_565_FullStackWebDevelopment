@@ -2,27 +2,25 @@
 <html>
 
 <head>
+    <title>Exercise1</title>
     <style type="text/css">
         body {
             background: linear-gradient(to right, rgb(10, 180, 10), rgb(250, 250, 20));
-        }
-
-        * {
             font-family: Helvetica;
         }
 
-        .adding_whitebox {
+        .main_content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+            width: 99vw;
+        }
 
-            width: 300px;
-            height: 400px;
-            background: #fff;
-            padding: 10px;
-            margin: 10px;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            position: absolute;
-
+        .formitem {
+            background: white;
+            height: 70vh;
+            width: 25vw;
         }
 
         .titlestyle {
@@ -30,25 +28,20 @@
             text-align: center;
         }
 
+        form {
+            text-align: center;
+        }
+
         input[type=text],
         textarea {
-            width: 92%;
+            width: 80%;
             padding: 16px;
             border: 1px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
-            resize: vertical
-        }
-
-        input,
-        textarea {
+            resize: vertical;
             margin: 12px;
             margin-top: 10px
-        }
-
-        .buttonstyle {
-            text-align: center;
-            margin: auto;
         }
 
         .submitbutton {
@@ -60,26 +53,28 @@
         }
 
         .submitbutton:hover {
-            background:lightgreen;
-            color:navy;
+            background: lightgreen;
+            color: navy;
         }
     </style>
 </head>
 
 <body>
-    <div class="adding_whitebox">
-        <form>
-            <h3 class="titlestyle">CONTACT US</h3>
-            <input type="text" name="Name" placeholder="Name"><br>
-            <input type="text" name="Email" placeholder="Email"><br>
-            <textarea rows="5" id="subject" name="subject" placeholder=""></textarea>
-            <div class="buttonstyle">
-                <button class="submitbutton" type="submit">SUBMIT</button>
-                <button class="submitbutton" type="reset">RESET</button>
-            </div>
+    <div class="main_content">
+        <div class="formitem">
+            <form>
+                <h3 class="titlestyle">CONTACT US</h3>
+                <input type="text" name="Name" placeholder="Name"><br>
+                <input type="text" name="Email" placeholder="Email"><br>
+                <textarea rows="5" id="subject" name="subject" placeholder=""></textarea>
+                <div class="buttonstyle">
+                    <button class="submitbutton" type="submit">SUBMIT</button>
+                    <button class="submitbutton" type="reset">RESET</button>
+                </div>
 
-        </form>
+            </form>
 
+        </div>
     </div>
 
 </body>
