@@ -2,74 +2,47 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
     <title>Exercise3</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style type="text/css">
-        .form_style {
-            width: 35%;
-            height: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            border: 1px black solid;
-            margin-top: 5%;
-            padding: 2%;
-            margin-bottom: 5%;
-        }
-
-        .form_elementstyling {
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        h3 {
-            text-align: center;
-        }
-
-        .button_styling {
-            padding-left: 5%;
-        }
-    </style>
-   
 </head>
 
 <body>
-    <form class="form_style">
-        <h3>CONTACT US</h3>
-        <div class="form-group form_elementstyling">
+    <form class="border border-dark text-center mx-auto mt-5" style="width: 400px;">
+        <h3 class="mt-5">CONTACT US</h3>
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Name</label>
             <input type="text" class="form-control" id="name">
         </div>
-        <div class="form-group form_elementstyling">
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Email</label>
             <input type="email" class="form-control" id="email">
         </div>
-        <div class="form-group form_elementstyling">
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Comment</label>
             <textarea rows="5" class="form-control" id="message"></textarea>
         </div>
-        <div class="button_styling">
-            <button type="Submit" class="btn btn-primary"  onclick="printFormInfo(event)">Submit</button>
-            <button type="Reset" class="btn" onclick="clearForm(event)">Reset</button>
+        <div class=" mx-4 my-3 text-left">
+            <button type="Submit" class="btn btn-primary" onclick="printFormInfo(event)">Submit</button>
+            <button type="Reset" class="btn btn-secondary" onclick="clearForm(event)">Reset</button>
         </div>
     </form>
     <script type="text/javascript">
-    function printFormInfo(event){
-        event.preventDefault();
-        var fullName=document.getElementById("name").value;
-        var emailId=document.getElementById("email").value;
-        var mes=document.getElementById("message").value;
-        console.log("name: "+fullName);
-        console.log("email: "+emailId);
-        console.log("message: "+mes);       
-    } 
-    function clearForm(event){
-        document.getElementById("name").value="";
-        document.getElementById("email").value="";
-        document.getElementById("message").value="";
-    }      
-    </script>
+        function printFormInfo(event){
+            event.preventDefault();
+            var fullName=document.getElementById("name").value;
+            var emailId=document.getElementById("email").value;
+            var mes=document.getElementById("message").value;
+            console.log("name: "+fullName);
+            console.log("email: "+emailId);
+            console.log("message: "+mes);       
+        } 
+        function clearForm(event){
+            document.getElementById("name").value="";
+            document.getElementById("email").value="";
+            document.getElementById("message").value="";
+        }      
+        </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
