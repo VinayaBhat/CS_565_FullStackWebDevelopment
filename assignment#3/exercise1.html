@@ -1,54 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <title>Exercise1</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style type="text/css">
-        .form_style {
-            width: 35%;
-            height: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            border: 1px black solid;
-            margin-top: 5%;
-            padding: 2%;
-            margin-bottom: 5%;
-        }
-
-        .form_elementstyling {
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        h3 {
-            text-align: center;
-        }
-        .button_styling{
-            padding-left: 5%;
-        }
-
-      
-    </style>
 </head>
 
 <body>
-    <form class="form_style">
-        <h3>CONTACT US</h3>
-        <div class="form-group form_elementstyling">
+    <form class="border border-dark text-center mx-auto mt-5" style="width: 400px;">
+        <h3 class="mt-5">CONTACT US</h3>
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Name</label>
             <input type="text" class="form-control">
         </div>
-        <div class="form-group form_elementstyling">
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Email</label>
             <input type="email" class="form-control">
         </div>
-        <div class="form-group form_elementstyling">
+        <div class="form-group mx-4 mt-2 text-left">
             <label>Comment</label>
             <textarea rows="5" class="form-control"></textarea>
         </div>
-        <div class="button_styling">
+        <div class=" mx-4 my-3 text-left">
             <button type="Submit" class="btn btn-primary">Submit</button>
-            <button type="Reset" class="btn">Reset</button>
+            <button type="Reset" class="btn btn-secondary">Reset</button>
         </div>
     </form>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Exercise4</title>
+    <title>Exercise5</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script>
@@ -15,14 +15,26 @@
         function changeBackgroundColor() {
             document.body.style.background = generateHexCode();
         }
-
     </script>
+    <style type="text/css">
+    input[type=button]{
+        background: black;
+        color: white;
+        font: bold;
+        padding:10px;
+        margin: 40vh 40vw;   
+        border:3px solid black;     
+    }
+    input:hover{
+        background: grey;
+        color: white;
+    }
+    </style>
 
 </head>
 
 <body>
-    <input type="button" value="Change Background Color !" onclick="changeBackgroundColor()"
-        style="margin-left: 5cm;margin-top: 5cm; background: black;color: white;padding: 1cm;">
+    <input type="button" value="Change Background Color !" onclick="changeBackgroundColor()">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

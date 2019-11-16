@@ -1,22 +1,21 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-    <!--
-        Bootstrap grid 
-        Layout 2
-    -->
-    <title>Exercise4</title>
+    <title>Exercise8</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style type="text/css">
-        .col_style {
+        .col-md-12,
+        .col-md-8,
+        .col-md-4
+        {
             background: rgb(37, 37, 37);
             color: white;
-            padding: 0.5cm;
-            border-radius: 10px;
-            border: 0.2vw solid white;
-            margin-top: 0.2vh;
+            padding: 0.3cm;
+            border: 0.2cm solid white;
         }
+       
     </style>
 
 </head>
@@ -24,35 +23,28 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-4 col_style">
-                One
+            <div class="col-md-12">
+                Header
             </div>
-            <div class="col-8 col_style">
-                Two
+        </div>
+        <div class="row">           
+            <div class="col-md-8 order-md-12">
+                <p>Article</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consequatur minus, maiores, sequi
+                    laudantium adipisci quaerat assumenda eum voluptates ipsum aliquid dolorem recusandae molestiae
+                    quidem totam fuga at, deleniti officia!</p>
             </div>
+            <div class="col-md-4 order-md-1">
+                    <p>Aside</p>
+                </div>
         </div>
         <div class="row">
-            <div class="col-4 col_style">
-                Three
-            </div>
-            <div class="col-8 col_style">
-                Four
+            <div class="col-md-12">
+                Footer
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 col_style">
-                Five
-            </div>
-            <div class="col-8 col_style">
-                Six
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col_style">
-                Seven
-            </div>
-        </div>
-    </div>
+    </div>   
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -62,5 +54,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
+
+</html>

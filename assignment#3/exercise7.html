@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+            CSS Grid
+            Layout 5
+        -->
+    <title>
+        Exercise7
+    </title>
+    <style type="text/css">
+        .container {
+            display: grid;
+            width: 60vw;
+            grid-template-columns: 1fr 9fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            margin: 0 auto;
+        }
+
+        .row_style {
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.3cm;
+            border-radius: 10px;
+            border: 0.2vw solid white;
+            overflow: hidden;
+        }
+
+        #firstitem {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        #seconditem {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        #threeitem {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+
+        #fouritem {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 6;
+            grid-row-end: 6;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row_style" id="firstitem">
+            One
+        </div>
+        <div class="row_style" id="seconditem">
+            Two
+        </div>
+        <div class="row_style" id="threeitem">
+            Three
+        </div>
+        <div class="row_style" id="fouritem">
+            Four
+        </div>
+    </div>
+
+</body>
+
+</html>

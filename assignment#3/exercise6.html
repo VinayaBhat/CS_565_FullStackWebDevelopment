@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+           CSS Grid
+            Layout 4
+        -->
+    <title>Exercise6</title>
+    <style type="text/css">
+        .container {
+            width: 60vw;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            column-gap: 3px;
+            row-gap: 3px;
+            margin: 0 auto;
+        }
+
+        .common_styling {
+            background: rgb(37, 37, 37);
+            color: white;
+            padding: 0.5cm;
+            border-radius: 10px;
+            border: 0.2vw solid white;
+            overflow: hidden;
+        }
+
+        .firstitem {
+            grid-row-start: 1;
+            grid-row-end: 7;
+
+        }
+
+        .seconditem {
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+
+        .threeitem {
+            grid-row-start: 5;
+            grid-row-end: 5;
+        }
+
+        .fouritem {
+            grid-row-start: 6;
+            grid-row-end: 6;
+        }
+        .fiveitem{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="firstitem common_styling">
+            One
+        </div>
+        <div class="seconditem common_styling">
+            Two
+        </div>
+        <div class="threeitem common_styling">
+            Three
+        </div>
+        <div class="fouritem common_styling">
+            Four
+        </div>
+        <div class="fiveitem common_styling">
+            Five
+        </div>
+
+    </div>
+</body>
+
+</html>
