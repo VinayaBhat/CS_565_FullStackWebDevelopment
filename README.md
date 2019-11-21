@@ -81,7 +81,9 @@ Files:
    
    `http://localhost:8080/` displays the form. After filling out the contents if we press `submit`, the contents of the form is displayed on `http://localhost:8080/submit`
 
-# AngularTutorial
+# Assignment 6
+
+## AngularTutorial
 
 1. Download the project
 2. Change the project directory `assignment#6` to `assignment6` since webpack does not support `#`
@@ -90,7 +92,6 @@ Files:
 5. Run `npm update` to install all project dependencies in the command prompt. 
 6. Run `ng serve` in the command prompt to start the dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-
 **Modified Files** <br />
 AngularTutorial/src/index.html <br />
 AngularTutorial/src/main.ts <br />
@@ -98,3 +99,13 @@ AngularTutorial/src/app/app.component.ts <br />
 AngularTutorial/src/app/app.module.ts <br />
 
 
+## React Tutorial
+1. Download the project
+2. Run `npm update` to download the project dependencies in the command prompt. 
+3. Go into the project folder : `cd react_tutorial/my-app`
+4. Run `npm start` in the command prompt. This launches the web browser on `http://localhost:3000`
+
+**Modified Files** <br />
+react_tutorial\my-app\src\index.js
+
+I have commented out lines as we progressed through the tutorial rather than deleting it. 
