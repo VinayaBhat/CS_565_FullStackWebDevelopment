@@ -107,5 +107,6 @@ AngularTutorial/src/app/app.module.ts <br />
 
 **Modified Files** <br />
 react_tutorial\my-app\src\index.js
+react_tutorial\my-app\src\index.css
 
 I have commented out lines as we progressed through the tutorial rather than deleting it. 
