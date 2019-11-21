@@ -106,7 +106,7 @@ AngularTutorial/src/app/app.module.ts <br />
 4. Run `npm start` in the command prompt. This launches the web browser on `http://localhost:3000`
 
 **Modified Files** <br />
-react_tutorial\my-app\src\index.js
+react_tutorial\my-app\src\index.js<br />
 react_tutorial\my-app\src\index.css
 
 I have commented out lines as we progressed through the tutorial rather than deleting it. 
