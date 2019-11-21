@@ -8,15 +8,9 @@
 6. Run `ng serve` in the command prompt to start the dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
-# **Modified Files** <br />
+**Modified Files** <br />
 AngularTutorial/src/index.html <br />
 AngularTutorial/src/main.ts <br />
 AngularTutorial/src/app/app.component.ts <br />
 AngularTutorial/src/app/app.module.ts <br />
-
-
-
-
-
-
 
