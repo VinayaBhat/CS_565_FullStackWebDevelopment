@@ -1,5 +1,5 @@
 
-#**React Tutorial**
+# **React Tutorial**
 1. Download the project
 2. Run `npm update` to download the project dependencies in the command prompt. 
 3. Go into the project folder : `cd react_tutorial/my-app`
