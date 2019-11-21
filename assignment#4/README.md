@@ -10,4 +10,4 @@
  
  4. exercise4  prints the page dimensions *Width* and *Height* on page resize. 
  
- 5. exercise5 is the button to change the color. I have placed the button in the center of the page and the button changes color when hovered over it. On each click of the button the background of the page is changed to a randomly generated color (HexCode)
+ 5. exercise5 is the button to change the color of the webpage. I have placed the button in the center of the page and the button changes color when hovered over it. On each click of the button the background of the page is changed to a randomly generated color (HexCode)
