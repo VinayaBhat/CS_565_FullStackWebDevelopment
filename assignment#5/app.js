@@ -3,6 +3,7 @@ const appobject = expressobj(); // Appobject has many methods
 const path = require('path');
 const bodyparser = require('body-parser');
 
+
 appobject.use(bodyparser.urlencoded({ extended: false }));
 
 appobject.get('/', (req, res) => {
@@ -18,4 +19,5 @@ appobject.post('/submit', (req, res) => {
 });
 
 appobject.listen(8080);
+console.log("Server running on http://localhost:8080/");
 
