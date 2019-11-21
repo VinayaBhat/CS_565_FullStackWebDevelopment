@@ -12,7 +12,7 @@
 AngularTutorial/src/index.html <br />
 AngularTutorial/src/main.ts <br />
 AngularTutorial/src/app/app.component.ts <br />
-AngularTutorial/src/app.module.ts <br />
+AngularTutorial/src/app/app.module.ts <br />
 
 
 
