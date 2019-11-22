@@ -119,7 +119,7 @@ I have commented out lines as we progressed through the tutorial rather than del
 ## Vue Tutorial
 
 *Mini Workshop 1 - Build a Simple Pet Fetching Web Application - Vue
-Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html *
+Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html*
 
 **Modified Files** <br />
 vue_tutorial/src/main.js <br />
