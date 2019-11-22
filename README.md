@@ -85,6 +85,8 @@ Files:
 
 ## AngularTutorial
 
+*Create Your First Angular App - Codelabs: https://codelab.fun/angular/create-first-app/intro*
+
 1. Download the project
 2. Change the project directory `assignment#6` to `assignment6` since webpack does not support `#`
 3. Run `npm install -g @angular/cli@latest` to install angular on the system in the command prompt. 
@@ -100,6 +102,9 @@ AngularTutorial/src/app/app.module.ts <br />
 
 
 ## React Tutorial
+
+*Intro to React - Reactjs.org: https://reactjs.org/tutorial/tutorial.html*
+
 1. Download the project
 2. Run `npm update` to download the project dependencies in the command prompt. 
 3. Go into the project folder : `cd react_tutorial/my-app`
@@ -110,3 +115,17 @@ react_tutorial\my-app\src\index.js<br />
 react_tutorial\my-app\src\index.css
 
 I have commented out lines as we progressed through the tutorial rather than deleting it. 
+
+## Vue Tutorial
+
+*Mini Workshop 1 - Build a Simple Pet Fetching Web Application - Vue
+Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html *
+
+**Modified Files** <br />
+src/main.js
+src/App.vue
+src/plugins/veutify.js
+src/components/Dog.vue
+public/index.html
+package.json
+
