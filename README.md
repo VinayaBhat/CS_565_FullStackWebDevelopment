@@ -111,8 +111,8 @@ AngularTutorial/src/app/app.module.ts <br />
 4. Run `npm start` in the command prompt. This launches the web browser on `http://localhost:3000`
 
 **Modified Files** <br />
-react_tutorial\my-app\src\index.js<br />
-react_tutorial\my-app\src\index.css
+react_tutorial/my-app/src/index.js<br />
+react_tutorial/my-app/src/index.css
 
 I have commented out lines as we progressed through the tutorial rather than deleting it. 
 
@@ -122,10 +122,10 @@ I have commented out lines as we progressed through the tutorial rather than del
 Vixens: https://workshops.vuevixens.org/workshop/minis/mini1.html *
 
 **Modified Files** <br />
-src/main.js
-src/App.vue
-src/plugins/veutify.js
-src/components/Dog.vue
-public/index.html
-package.json
+vue_tutorial/src/main.js <br />
+vue_tutorial/src/App.vue <br />
+vue_tutorial/src/plugins/veutify.js <br />
+vue_tutorial/src/components/Dog.vue <br />
+vue_tutorial/public/index.html <br />
+vue_tutorial/package.json <br />
 
