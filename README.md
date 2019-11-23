@@ -77,7 +77,8 @@ Files:
 
 1. Download the project
 2. Go to the project directory `cd assignment#5` 
-3. On running `node app.js` in the command prompt, the server is started and is listening on port 8080. 
+3. Run `npm update`
+4. On running `node app.js` in the command prompt, the server is started and is listening on port 8080. 
    
    `http://localhost:8080/` displays the form. After filling out the contents if we press `submit`, the contents of the form is displayed on `http://localhost:8080/submit`
 
